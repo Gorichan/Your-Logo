@@ -1,13 +1,13 @@
-@import 'fons.css';
+@import "fons.css";
 
-ul, li {
+ul,
+li {
     display: block;
     padding: 0;
     margin: 0;
-    
 }
 body {
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     color: #212121;
     /* background-color: #868686; */
     /* font-family: 'Roboto', sans-serif; */
@@ -21,7 +21,7 @@ body {
     margin-left: 35px;
 }
 .menu__item a {
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-weight: 600;
     color: #212121;
     font-size: 20px;
@@ -32,7 +32,7 @@ body {
 }
 /* header */
 .header__sub {
-    background-image: url('../img/header_bg.png');
+    background-image: url("../img/header_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -50,7 +50,7 @@ body {
     line-height: 22px;
 }
 .button {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     border: 2px solid #fff;
     background-color: transparent;
     padding: 10px 25px;
@@ -74,28 +74,28 @@ body {
 }
 .about__title,
 .services__title,
-.works__title {
+.works__title,
+.pricing__title{
     font-size: 30px;
     line-height: 22px;
     font-weight: bold;
     color: #212121;
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-weight: 600;
     padding-bottom: 25px;
-    
 }
 .about h3 {
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     color: #212121;
     padding-bottom: 28px;
 }
 .about p,
 .services p {
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     color: #212121;
     font-size: 15px;
     line-height: 22px;
-    
+
     margin: 0 auto;
 }
 .container {
@@ -103,10 +103,9 @@ body {
 }
 .about__text {
     padding-bottom: 125px;
-   
 }
 /* secvices */
-.services__top{
+.services__top {
     margin-bottom: 120px;
 }
 .services {
@@ -125,7 +124,7 @@ body {
     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.35);
     background-color: #fff;
     padding: 50px 25px 40px;
-    transition: .3s;
+    transition: 0.3s;
 }
 .our__card p {
     padding: 20px 50px;
@@ -138,14 +137,14 @@ body {
     border: 1px solid black;
     background: transparent;
     padding: 20px 15px 20px;
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     line-height: 0;
 }
 .our__card:hover {
     background-color: #00897b;
     color: #fff;
 }
-.our__card:hover p{
+.our__card:hover p {
     color: #fff;
 }
 .our__card:hover .button__services {
@@ -157,11 +156,10 @@ body {
     margin-top: 100px;
 }
 .nav-tabs .button {
-    border-color:  #00897b;
+    border-color: #00897b;
     color: black;
     text-decoration: none;
-    transition: .3s;
-    
+    transition: 0.3s;
 }
 .nav-tabs .button:hover {
     color: #fff;
@@ -169,17 +167,14 @@ body {
 .nav-tabs .button.active {
     background-color: #00897b;
     color: #fff;
-
 }
 .text__hover {
     position: relative;
 }
 .works__hover img {
     width: 100%;
-
 }
 .works__hover {
-    
     margin-bottom: 25px;
     position: relative;
 }
@@ -201,16 +196,64 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    transition: .5s;
+    transition: 0.5s;
 }
 .works__hover:hover .text__hover {
     opacity: 1;
     cursor: pointer;
-
 }
 .works__view-all {
     margin-top: 100px;
 }
+/* pricing */
+.pricing {
+    padding-bottom: 125px;
+    text-align: center;
+}
+.pricing__cards {
+    overflow: hidden;
+    padding: 50px 10px 60px 10px;
+    position: relative;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.35);
+}
+.pricing__cards:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 130%;
+    height: 200px;
+    background-color: #3949ab;
+    z-index: -1;
+    transform: rotate(-5deg);
+    
+}
+.pricing__cards-top {
+    padding-bottom: 50px;
+    
+}
+.pricing__cards-title {
+    padding-bottom: 60px;
 
-
-  
+}
+.pricing__cards-title p {
+    max-width: 170px;
+    border-bottom: 1px solid #bfbfbf;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    
+}
+.pricing__button {
+    font-family: "Roboto", sans-serif;
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 15px 15px;
+    font-size: 15px;
+    line-height: 22px;
+    color: black;
+    transition: 0.3s;
+}
+.pricing__text {
+    margin-bottom: 125px;
+}

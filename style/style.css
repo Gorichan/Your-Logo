@@ -84,6 +84,7 @@ body {
     font-weight: 600;
     padding-bottom: 25px;
 }
+
 .about h3 {
     font-family: "Open Sans";
     color: #212121;
@@ -211,6 +212,7 @@ body {
     text-align: center;
 }
 .pricing__cards {
+    transition: .3s;
     overflow: hidden;
     padding: 50px 10px 60px 10px;
     position: relative;
@@ -229,8 +231,18 @@ body {
     transform: rotate(-5deg);
     
 }
+.pricing__cards:hover {
+    transform: scale(1.01);
+    
+}
+.pricing__cards:hover .pricing__button {
+    background-color: #00897b;
+    color: #fff;
+    border-color: #00897b;
+}
 .pricing__cards-top {
-    padding-bottom: 50px;
+    color: #fff;
+    padding-bottom: 80px;
     
 }
 .pricing__cards-title {
@@ -240,8 +252,8 @@ body {
 .pricing__cards-title p {
     max-width: 170px;
     border-bottom: 1px solid #bfbfbf;
-    margin: 0 auto;
-    padding-bottom: 20px;
+    margin: 0 auto 20px;
+    
     
 }
 .pricing__button {

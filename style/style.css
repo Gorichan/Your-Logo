@@ -12,6 +12,10 @@ body {
     /* background-color: #868686; */
     /* font-family: 'Roboto', sans-serif; */
 }
+.container {
+    text-align: center;
+}
+/* menu */
 .menu-bar {
     background-color: #fff;
     padding: 20px 0;
@@ -99,9 +103,7 @@ body {
 
     margin: 0 auto;
 }
-.container {
-    text-align: center;
-}
+
 .about__text {
     padding-bottom: 125px;
 }
@@ -269,3 +271,58 @@ body {
 .pricing__text {
     margin-bottom: 125px;
 }
+/* team */
+.team {
+    padding-bottom: 50px;
+    text-align: center;
+}
+.row {
+    padding-top: 50px;
+}
+.icon__team {
+    padding: 0 5px 0 5px;
+    color: #00897b;
+    font-size: 30px;
+}
+.icon__team i {
+    padding: 0 5px 0 5px;
+}
+.icon__team i:hover {
+    padding: 5px;
+    color: #fff;
+    background-color: blue;
+}
+
+.carousel-indicators li{
+    background-color: #00897b;
+    
+    width: 10px;
+    height: 10px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: #00897b;
+}
+.carousel-indicators .active {
+    background-color: blue;
+}
+.carousel-indicators {
+    bottom: -60px;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 9%;
+    height: auto;
+    
+
+}
+.active li {
+    color: blue;
+
+}
+
+.carousel-item-next,
+ .carousel-item-prev,
+  .carousel-item.active {
+      display: flex;
+  }
+

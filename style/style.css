@@ -22,6 +22,9 @@ body {
     padding: 20px 0;
     color: #212121;
 }
+.menu-bar .row {
+    padding: 0;
+}
 .menu__item {
     margin-left: 35px;
 }
@@ -41,6 +44,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     padding: 180px 0;
     text-align: center;
     color: #fff;
@@ -277,9 +281,7 @@ body {
     padding-bottom: 50px;
     text-align: center;
 }
-.row {
-    padding-top: 50px;
-}
+
 .icon__team {
     padding: 0 5px 0 5px;
     color: #00897b;
@@ -394,8 +396,59 @@ footer {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #fff;
+    padding: 50px;
 }
+/* form */
+.form-group {
+    display: flex;
+}
+footer input:focus,
+ footer textarea:focus,
+footer button:focus {
+    outline: none;
+
+}
+footer input, footer textarea {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+}
+footer textarea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    resize: none;
+}
+footer button {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: none;
+    color: #212121;
+    opacity: .6;
+    transform: .3s;
+}
+footer button:hover {
+    opacity: .3;
+}
+.form {
+    margin-top: 70px;
+}
+
+/* russ */
+.russ {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+
+
 
 
 

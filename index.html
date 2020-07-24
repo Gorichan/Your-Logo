@@ -10,26 +10,34 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/fons.css">
+    <link rel="stylesheet" href="style/media.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Yuor Logo</title>
 </head>
 
 <body>
+    <!-- <div id="toTop"><i class="fas fa-chevron-up"></i></div> -->
     <header class="menu-bar">
         <div class="container">
             <div class="row">
-                <div class="col-x1-2">
+                <div class="col-xl-2">
                     <img src="img/Your_Logo.jpg" alt="logo" title="logo" class="logo">
+                   
+                </div>
+                <div class="logo-bar justify-content-end">
+                    <button class="menu-icon"><i class="fas fa-bars"></i></button>
                 </div>
                 <div class="col-xl-8 ml-auto aling-self-center">
                     <nav>
                         <ul class="menu d-flex justify-content-end">
-                            <li class="menu__item"><a href="#">Home</a></li>
-                            <li class="menu__item"><a href="#">About</a></li>
-                            <li class="menu__item"><a href="#">Servicing </a></li>
-                            <li class="menu__item"><a href="#">Portfolio</a></li>
-                            <li class="menu__item"><a href="#">Blog</a></li>
-                            <li class="menu__item"><a href="#">Contact us</a></li>
+                            <li class="menu__item"><a href="/"><i class="fas fa-home"></i></a></li>
+                            <li class="menu__item"><a href="#about">About</a></li>
+                            <li class="menu__item"><a href="#services">Services</a></li>
+                            <li class="menu__item"><a href="#portfolio">Portfolio</a></li>
+                            <li class="menu__item"><a href="#pricing">Pricing</a></li>
+                            <li class="menu__item"><a href="#team">Team</a></li>
+                            <li class="menu__item"><a href="#blog">Blog</a></li>
+                            <li class="menu__item"><a href="#contact">Contact us</a></li>
                             <li class="menu__item"><i class="fas fa-search"></i></li>
                         </ul>
                     </nav>
@@ -53,7 +61,7 @@
         </div>
 
     </div>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -82,7 +90,7 @@
             </div>
         </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
         <div class="conteiner">
             <div class="row justify-content-center services__top">
                 <div class="col-xl-8">
@@ -146,11 +154,11 @@
         </div>
 
     </section>
-    <section class="works">
+    <section class="works" id="portfolio">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
-                    <h2 class="works__title">About Us</h2>
+                    <h2 class="works__title">Portfolio</h2>
                     <p class="works__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
                 </div>
@@ -158,7 +166,7 @@
             </div>
             <div class="row">
 
-                <nav class="col-xl-12">
+                <nav>
                     <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
                         <a class="nav-item button active " id="nav-home-tab" data-toggle="tab" href="#nav-home"
                             role="tab" aria-controls="nav-home" aria-selected="true">ALL</a>
@@ -170,11 +178,12 @@
                             aria-controls="nav-mok" aria-selected="false">MOCKUPS</a>
                     </div>
                 </nav>
+                
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="row works__img">
 
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-mb-2">
                                 <div class="works__hover">
                                     <img src="img/works-2.png" alt="works">
                                     <div class="text__hover">
@@ -487,7 +496,7 @@
 
     </section>
 
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -498,7 +507,24 @@
 
             </div>
             <div class="row">
-                <div class="col-xl-4">
+                <div class="col-md-4">
+                    <div class="pricing__cards">
+                        <div class="pricing__cards-top">
+                            <h3>Free Trail</h3>
+                            <p>$00.0 per month</p>
+                        </div>
+                        
+                        <div class="pricing__cards-title">
+                            <p>30 Free Trail</p>
+                            <p>5 Free projects</p>
+                            <p>PHP 5 Enabled</p>
+                            <p>24/7 Supotrs</p>
+                        </div>
+
+                        <button class="pricing__button">ORDER NOW</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
                     <div class="pricing__cards">
                         <div class="pricing__cards-top">
                             <h3>Free Trail</h3>
@@ -514,23 +540,7 @@
                         <button class="pricing__button">ORDER NOW</button>
                     </div>
                 </div>
-                <div class="col-xl-4">
-                    <div class="pricing__cards">
-                        <div class="pricing__cards-top">
-                            <h3>Free Trail</h3>
-                            <p>$00.0 per month</p>
-                        </div>
-                        <div class="pricing__cards-title">
-                            <p>30 Free Trail</p>
-                            <p>5 Free projects</p>
-                            <p>PHP 5 Enabled</p>
-                            <p>24/7 Supotrs</p>
-                        </div>
-
-                        <button class="pricing__button">ORDER NOW</button>
-                    </div>
-                </div>
-                <div class="col-xl-4">
+                <div class="col-md-4">
                     <div class="pricing__cards">
                         <div class="pricing__cards-top">
                             <h3>Free Trail</h3>
@@ -551,7 +561,7 @@
         </div>
 
     </section>
-    <section class="team">
+    <section class="team" id="team">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -561,8 +571,7 @@
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
                 </div>
             </div>
-            <div class="row">
-
+            <div class="row justify-content-center">
 
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -570,10 +579,11 @@
                         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active ">
-                            <div class="icon__team-slider col-xl-4">
-                                <img src="img/team-1.png" alt="">
+
+                    <div class="carousel-inner ">     
+                        <div class="carousel-item row active">
+                            <div class="icon__team-slider col-md-4 col-sm-12 ">
+                                <img src="img/team-1.png" alt="" class="img-fluid">
                                 <div class="icon__text">
                                     <h3>John Doe</h3>
                                     <p>General Manager</p>
@@ -586,8 +596,8 @@
                                     <a href="#"><i class="fab fa-dribbble"></i></a>
                                 </div>
                             </div>
-                            <div class="icon__team-slider col-xl-4">
-                                <img src="img/team-2.png" alt="">
+                            <div class="icon__team-slider col-md-4 col-sm-12">
+                                <img src="img/team-2.png" alt="" class="img-fluid">
                                 <div class="icon__text">
                                     <h3>Alexa Biru</h3>
                                     <p>Office Director</p>
@@ -600,8 +610,8 @@
                                     <a href="#"><i class="fab fa-dribbble"></i></a>
                                 </div>
                             </div>
-                            <div class="icon__team-slider col-xl-4">
-                                <img src="img/team-3.png" alt="">
+                            <div class="icon__team-slider col-md-4 col-sm-12 ">
+                                <img src="img/team-3.png" alt="" class="img-fluid">
                                 <div class="icon__text">
                                     <h3>Ronobir sing</h3>
                                     <p>Admin</p>
@@ -613,12 +623,12 @@
                                     <a href="#"><i class="fas fa-comments"></i></a>
                                     <a href="#"><i class="fab fa-dribbble"></i></a>
                                 </div>
-                            </div>
-
+                            </div>  
                         </div>
-                        <div class="carousel-item">
-                            <div class="icon__team-slider col-xl-4">
-                                <img src="img/team-1.png" alt="">
+
+                        <div class="carousel-item row"> 
+                            <div class="icon__team-slider col-md-4 col-sm-12">
+                                <img src="img/team-1.png" alt="" class="img-fluid">
                                 <div class="icon__text">
                                     <h3>John Doe</h3>
                                     <p>General Manager</p>
@@ -631,8 +641,8 @@
                                     <a href="#"><i class="fab fa-dribbble"></i></a>
                                 </div>
                             </div>
-                            <div class="icon__team-slider col-xl-4">
-                                <img src="img/team-2.png" alt="">
+                            <div class="icon__team-slider col-md-4 col-sm-12">
+                                <img src="img/team-2.png" alt="" class="img-fluid">
                                 <div class="icon__text">
                                     <h3>Alexa Biru</h3>
                                     <p>Office Director</p>
@@ -645,8 +655,8 @@
                                     <a href="#"><i class="fab fa-dribbble"></i></a>
                                 </div>
                             </div>
-                            <div class="icon__team-slider col-xl-4">
-                                <img src="img/team-3.png" alt="">
+                            <div class="icon__team-slider col-md-4 col-sm-12">
+                                <img src="img/team-3.png" alt="" class="img-fluid">
                                 <div class="icon__text">
                                     <h3>Ronobir sing</h3>
                                     <p>Admin</p>
@@ -658,11 +668,12 @@
                                     <a href="#"><i class="fas fa-comments"></i></a>
                                     <a href="#"><i class="fab fa-dribbble"></i></a>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="icon__team-slider col-xl-4">
-                                <img src="img/team-1.png" alt="">
+                            </div>  
+                        </div> 
+
+                        <div class="carousel-item row">
+                            <div class="icon__team-slider col-md-4 col-sm-12">
+                                <img src="img/team-1.png" alt="" class="img-fluid">
                                 <div class="icon__text">
                                     <h3>John Doe</h3>
                                     <p>General Manager</p>
@@ -675,8 +686,8 @@
                                     <a href="#"><i class="fab fa-dribbble"></i></a>
                                 </div>
                             </div>
-                            <div class="icon__team-slider col-xl-4">
-                                <img src="img/team-2.png" alt="">
+                            <div class="icon__team-slider col-md-4 col-sm-12">
+                                <img src="img/team-2.png" alt="" class="img-fluid">
                                 <div class="icon__text">
                                     <h3>Alexa Biru</h3>
                                     <p>Office Director</p>
@@ -689,8 +700,8 @@
                                     <a href="#"><i class="fab fa-dribbble"></i></a>
                                 </div>
                             </div>
-                            <div class="icon__team-slider col-xl-4">
-                                <img src="img/team-3.png" alt="">
+                            <div class="icon__team-slider col-md-4 col-sm-12">
+                                <img src="img/team-3.png" alt="" class="img-fluid">
                                 <div class="icon__text">
                                     <h3>Ronobir sing</h3>
                                     <p>Admin</p>
@@ -702,9 +713,9 @@
                                     <a href="#"><i class="fas fa-comments"></i></a>
                                     <a href="#"><i class="fab fa-dribbble"></i></a>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
+                            </div>  
+                    </div> 
+
                     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
@@ -718,7 +729,7 @@
             </div>
         </div>
     </section>
-    <section class="blog">
+    <section class="blog" id="blog">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -732,46 +743,49 @@
 
             <div class="row">
                 <div class="col-xl-6">
-                    <img src="img/blog-1.png" alt="blog">
+                    <img src="img/blog-1.png" alt="blog" class="img-rensposive">
                 </div>
                 <div class="col-xl-6">
                     <div class="blog__text">
                         <a href="#">SEO Quis Vestibulum</a>
-                    <div>
-                        <span><i class="far fa-calendar-alt"></i>14.07.2017</span>
-                        <span><i class="far fa-file"></i>Development</span>
+                        <div>
+                            <span><i class="far fa-calendar-alt"></i>14.07.2017</span>
+                            <span><i class="far fa-file"></i>Development</span>
+                        </div>
+                        <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut
+                            aliquip ex ea commodo consequat...</p>
                     </div>
-                    <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat...</p>
-                    </div>
-                    
+
                 </div>
                 <div class="col-xl-6">
                     <div class="blog__text">
                         <a href="#">SEO Quis Vestibulum</a>
-                    <div>
-                        <span><i class="far fa-calendar-alt"></i>14.07.2017</span>
-                        <span><i class="far fa-file"></i>Development</span>
-                    </div>
-                    <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat...</p>
+                        <div>
+                            <span><i class="far fa-calendar-alt"></i>14.07.2017</span>
+                            <span><i class="far fa-file"></i>Development</span>
+                        </div>
+                        <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut
+                            aliquip ex ea commodo consequat...</p>
                     </div>
                 </div>
                 <div class="col-xl-6">
-                    <img src="img/blog-2.png" alt="blog">
+                    <img src="img/blog-2.png" alt="blog" class="img-rensposive">
                 </div>
                 <div class="col-xl-6">
-                    <img src="img/blog-3.png" alt="blog">
+                    <img src="img/blog-3.png" alt="blog" class="img-rensposive">
                 </div>
                 <div class="col-xl-6">
                     <div class="blog__text">
                         <a href="#">SEO Quis Vestibulum</a>
-                    <div>
-                        <span><i class="far fa-calendar-alt"></i>14.07.2017</span>
-                        <span><i class="far fa-file"></i>Development</span>
-                    </div>
-                    <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat...</p>
+                        <div>
+                            <span><i class="far fa-calendar-alt"></i>14.07.2017</span>
+                            <span><i class="far fa-file"></i>Development</span>
+                        </div>
+                        <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut
+                            aliquip ex ea commodo consequat...</p>
                     </div>
                 </div>
 
@@ -780,12 +794,12 @@
             <div class="row justify-content-center nav-tabs works__view-all">
                 <button class="button active">MORE VIEW</button>
             </div>
-            
-            
+
+
 
         </div>
     </section>
-    <footer class="contact">
+    <footer class="contact" id="contact">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -795,53 +809,54 @@
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
                     </div>
                 </div>
-        </div>
-
-        <div class="row justify-content-center">
-            <div class="col-xl-3">
-                <div class="sercli">
-                    <i class="fas fa-map-marker-alt"></i>
-                </div>
-                
-                <p>Nobinagar savar,<br> Bangladesh</p>
-
-
             </div>
-            <div class="col-xl-3">
-                <div class="sercli">
-                    <i class="fas fa-phone"></i>
+
+            <div class="row justify-content-center">
+                <div class="col-xl-3">
+                    <div class="sercli">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+
+                    <p>Nobinagar savar,<br> Bangladesh</p>
+
+
                 </div>
-                
-                <p>+8801743331996<br>
-                +8801928737807</p>
+                <div class="col-xl-3">
+                    <div class="sercli">
+                        <i class="fas fa-phone"></i>
+                    </div>
 
-            </div>
-            <div class="col-xl-3">
-                <div class="sercli">
-                    <i class="far fa-envelope"></i>
+                    <p>+8801743331996<br>
+                        +8801928737807</p>
+
                 </div>
-                
-                <p>quickmasud@gmail.com<br>
-                 quickmasud@yahoo.com</p>
+                <div class="col-xl-3">
+                    <div class="sercli">
+                        <i class="far fa-envelope"></i>
+                    </div>
+
+                    <p>quickmasud@gmail.com<br>
+                        quickmasud@yahoo.com</p>
+                </div>
             </div>
-        </div>
-        <div class="row"></div>
+            <div class="row"></div>
 
-    </section>
-
+            </section>
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+                crossorigin="anonymous"></script>
+            <script src="js/main.js"></script>
 </body>
 
 </html>

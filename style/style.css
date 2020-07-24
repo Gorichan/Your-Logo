@@ -18,6 +18,7 @@ body {
 }
 /* menu */
 .menu-bar {
+    align-items: center;
     background-color: #fff;
     padding: 20px 0;
     color: #212121;
@@ -41,6 +42,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     padding: 180px 0;
     text-align: center;
     color: #fff;
@@ -156,6 +158,9 @@ body {
     border-color: #fff;
 }
 /* works */
+.works nav {
+    width: 100%;
+}
 .works__title {
     margin-top: 100px;
 }
@@ -277,9 +282,7 @@ body {
     padding-bottom: 50px;
     text-align: center;
 }
-.row {
-    padding-top: 50px;
-}
+
 .icon__team {
     padding: 0 5px 0 5px;
     color: #00897b;
@@ -289,7 +292,7 @@ body {
     margin: 20px 0;
 }
 .icon__team i {
-
+    transition: .3s;
     text-align: center;
     width: 50px;
     height: 50px;
@@ -324,8 +327,15 @@ body {
 .carousel-indicators {
     bottom: -60px;
 }
+/* .carousel-control-next{
+    right: -0;
+
+}
+.carousel-control-prev {
+    left: 0;
+} */
 .carousel-control-next, .carousel-control-prev{
-    width: 9%;
+    width: 10%;
     height: auto;
     
 
@@ -394,8 +404,33 @@ footer {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #fff;
 }
 
+#toTop {
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    background: #00897b;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    color: #000000;
+}
+.logo-bar {
+    display: none;
+}
+
+.img-rensposive {
+    width: 100%;
+}
 
 

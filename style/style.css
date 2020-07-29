@@ -362,7 +362,7 @@ body {
 .blog__text {
     text-align: left;
     padding-left: 20px;
-    padding-top: 60px;
+    /* padding-top: 60px; */
 }
 .blog__text div {
     margin-top: 15px;

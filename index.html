@@ -16,37 +16,63 @@
 </head>
 
 <body>
-    <!-- <div id="toTop"><i class="fas fa-chevron-up"></i></div> -->
-    <header class="menu-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-2">
+    
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <a class="navbar-brand" href="#">
                     <img src="img/Your_Logo.jpg" alt="logo" title="logo" class="logo">
-                   
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto mr-2">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact us</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                    
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
                 </div>
-                <div class="logo-bar justify-content-end">
-                    <button class="menu-icon"><i class="fas fa-bars"></i></button>
-                </div>
-                <div class="col-xl-8 ml-auto aling-self-center">
-                    <nav>
-                        <ul class="menu d-flex justify-content-end">
-                            <li class="menu__item"><a href="/"><i class="fas fa-home"></i></a></li>
-                            <li class="menu__item"><a href="#about">About</a></li>
-                            <li class="menu__item"><a href="#services">Services</a></li>
-                            <li class="menu__item"><a href="#portfolio">Portfolio</a></li>
-                            <li class="menu__item"><a href="#pricing">Pricing</a></li>
-                            <li class="menu__item"><a href="#team">Team</a></li>
-                            <li class="menu__item"><a href="#blog">Blog</a></li>
-                            <li class="menu__item"><a href="#contact">Contact us</a></li>
-                            <li class="menu__item"><i class="fas fa-search"></i></li>
-                        </ul>
-                    </nav>
-
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="header__sub">
+              </nav>
+        </header>
+    
+    
+    <div class="header__sub" id="home">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -101,7 +127,7 @@
             </div>
             <div class="row">
                 <div class="col-xl-4">
-                    <div class="our__card">
+                    <div class="our__card text-center">
                         <i class="fas fa-mobile-alt icon"></i>
                         <h3>Awesome Icons</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
@@ -168,22 +194,22 @@
 
                 <nav>
                     <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-                        <a class="nav-item button active " id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                        <a class="nav-item button my-2 active " id="nav-home-tab" data-toggle="tab" href="#nav-home"
                             role="tab" aria-controls="nav-home" aria-selected="true">ALL</a>
-                        <a class="nav-item button " id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                        <a class="nav-item button my-2" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
                             role="tab" aria-controls="nav-profile" aria-selected="false">WEB DESIGN</a>
-                        <a class="nav-item button " id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
+                        <a class="nav-item button my-2" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
                             role="tab" aria-controls="nav-contact" aria-selected="false">UI/UX DESIGN</a>
-                        <a class="nav-item button " id="nav-mok-tab" data-toggle="tab" href="#nav-mok" role="tab"
+                        <a class="nav-item button my-2" id="nav-mok-tab" data-toggle="tab" href="#nav-mok" role="tab"
                             aria-controls="nav-mok" aria-selected="false">MOCKUPS</a>
                     </div>
                 </nav>
                 
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                        <div class="row works__img">
+                        <div class="row justify-content-center works__img ">
 
-                            <div class="col-xl-4 col-mb-2">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-2.png" alt="works">
                                     <div class="text__hover">
@@ -194,7 +220,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-2.png" alt="works">
                                     <div class="text__hover">
@@ -205,7 +231,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-2.png" alt="works">
                                     <div class="text__hover">
@@ -216,7 +242,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-2.png" alt="works">
                                     <div class="text__hover">
@@ -227,7 +253,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-2.png" alt="works">
                                     <div class="text__hover">
@@ -238,7 +264,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-2.png" alt="works">
                                     <div class="text__hover">
@@ -249,17 +275,12 @@
                                 </div>
 
                             </div>
-
-
-
-
-
                         </div>
                     </div>
                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                        <div class="row works__img">
+                        <div class="row justify-content-center works__img">
 
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-3.png" alt="works">
                                     <div class="text__hover">
@@ -270,7 +291,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-3.png" alt="works">
                                     <div class="text__hover">
@@ -281,7 +302,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-3.png" alt="works">
                                     <div class="text__hover">
@@ -292,7 +313,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-3.png" alt="works">
                                     <div class="text__hover">
@@ -303,7 +324,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-3.png" alt="works">
                                     <div class="text__hover">
@@ -314,7 +335,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-3.png" alt="works">
                                     <div class="text__hover">
@@ -333,9 +354,9 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                        <div class="row works__img">
+                        <div class="row justify-content-center works__img">
 
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-4.png" alt="works">
                                     <div class="text__hover">
@@ -346,7 +367,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-4.png" alt="works">
                                     <div class="text__hover">
@@ -357,7 +378,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-4.png" alt="works">
                                     <div class="text__hover">
@@ -368,7 +389,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-4.png" alt="works">
                                     <div class="text__hover">
@@ -379,7 +400,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-4.png" alt="works">
                                     <div class="text__hover">
@@ -390,7 +411,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-4.png" alt="works">
                                     <div class="text__hover">
@@ -409,9 +430,9 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="nav-mok" role="tabpanel" aria-labelledby="nav-contact-tab">
-                        <div class="row works__img">
+                        <div class="row justify-content-center works__img">
 
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-5.png" alt="works">
                                     <div class="text__hover">
@@ -422,7 +443,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-5.png" alt="works">
                                     <div class="text__hover">
@@ -433,7 +454,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-5.png" alt="works">
                                     <div class="text__hover">
@@ -444,7 +465,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-5.png" alt="works">
                                     <div class="text__hover">
@@ -455,7 +476,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-2.png" alt="works">
                                     <div class="text__hover">
@@ -466,7 +487,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4">
+                            <div class="col-xl-4 col-8">
                                 <div class="works__hover">
                                     <img src="img/works-5.png" alt="works">
                                     <div class="text__hover">
@@ -477,11 +498,6 @@
                                 </div>
 
                             </div>
-
-
-
-
-
                         </div>
                     </div>
                 </div>
@@ -506,8 +522,8 @@
                 </div>
 
             </div>
-            <div class="row">
-                <div class="col-md-4">
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-8 my-2">
                     <div class="pricing__cards">
                         <div class="pricing__cards-top">
                             <h3>Free Trail</h3>
@@ -524,7 +540,7 @@
                         <button class="pricing__button">ORDER NOW</button>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-8 my-2">
                     <div class="pricing__cards">
                         <div class="pricing__cards-top">
                             <h3>Free Trail</h3>
@@ -540,7 +556,7 @@
                         <button class="pricing__button">ORDER NOW</button>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-8 my-2">
                     <div class="pricing__cards">
                         <div class="pricing__cards-top">
                             <h3>Free Trail</h3>
@@ -771,10 +787,10 @@
                             aliquip ex ea commodo consequat...</p>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 lx-mx-2 lx-mt-2">
                     <img src="img/blog-2.png" alt="blog" class="img-rensposive">
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 ">
                     <img src="img/blog-3.png" alt="blog" class="img-rensposive">
                 </div>
                 <div class="col-xl-6">
@@ -842,7 +858,7 @@
             </div>
 
                 <div class="row justify-content-center form">
-                    <div class="col-xl-5">
+                    <div class="col-xl-5 my-3">
                         <input type="text" placeholder="Yuor Name">
                     </div>
                     <div class="col-xl-5">

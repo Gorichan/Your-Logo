@@ -2,7 +2,7 @@ $(document).reaby(function () {
 
 
 
-    $('ul.menu a[href^="#"').click(function () {
+    /* $('ul.menu a[href^="#"').click(function () {
         var target = $(this).attr('href');
         $('html, body').animate({
             scrollTop: $(target).offset().top
@@ -14,9 +14,9 @@ $(document).reaby(function () {
             'color': '#004bee'
         });
         return false;
-    });
+    }); */
 
-    $(window).scroll(function () {
+    /* $(window).scroll(function () {
         if ($(this).scrollTop() != 0)
         $('#toTop').fadeIn();
         else
@@ -26,7 +26,7 @@ $(document).reaby(function () {
         $('body,html').animate({
             scrollTop: 0
         }, 800);
-    });
+    }); */
 
     
 

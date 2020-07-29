@@ -16,6 +16,7 @@ body {
 .container {
     text-align: center;
 }
+
 /* menu */
 .menu-bar {
     align-items: center;
@@ -56,7 +57,7 @@ body {
 }
 .header__text {
     padding: 40px 100px;
-    font-size: 22px;
+    font-size: 1.5em;
     /* line-height: 22px; */
 }
 .button {
@@ -74,6 +75,7 @@ body {
     background-color: #00897b;
     border: 2px solid #00897b;
     cursor: pointer;
+    outline: none;
 }
 /* about */
 /* .about {
@@ -142,6 +144,7 @@ body {
     font-size: 60px;
 }
 .button__services {
+    
     text-transform: uppercase;
     border: 1px solid black;
     background: transparent;
@@ -159,6 +162,7 @@ body {
 .our__card:hover .button__services {
     color: #fff;
     border-color: #fff;
+    outline: none;
 }
 /* works */
 .works nav {
@@ -175,6 +179,7 @@ body {
 }
 .nav-tabs .button:hover {
     color: #fff;
+    outline: none;
 }
 .nav-tabs .button.active {
     background-color: #00897b;
@@ -250,6 +255,7 @@ body {
     background-color: #00897b;
     color: #fff;
     border-color: #00897b;
+    outline: none;
 }
 .pricing__cards-top {
     color: #fff;
@@ -355,6 +361,7 @@ body {
   }
 /* blog */
 .blog {
+    width: 100%;
     padding-bottom: 100px;
     background-color: #e4fdf9;
     text-align: center;
@@ -444,6 +451,7 @@ footer button {
 }
 footer button:hover {
     opacity: .3;
+    outline: none;
 }
 .form {
     margin-top: 70px;

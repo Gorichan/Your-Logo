@@ -1,4 +1,8 @@
-
+@media screen and (max-width: 1900px){
+    .img-rensposive {
+        margin-top: 5px;
+    }
+}
 @media screen and (max-width: 1024px) {
     .menu-bar  nav {
         display: none;
@@ -29,3 +33,4 @@
         margin-right: 0;
     }
 }
+

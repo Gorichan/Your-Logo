@@ -26,9 +26,9 @@ body {
 .menu-bar .row {
     padding: 0;
 }
-.menu__item {
+/* .menu__item {
     margin-left: 35px;
-}
+} */
 .menu__item a {
     font-family: "Open Sans";
     font-weight: 600;
@@ -76,9 +76,9 @@ body {
     cursor: pointer;
 }
 /* about */
-.about {
+/* .about {
     margin: 125px 125px;
-}
+} */
 .about img {
     padding-bottom: 40px;
 }
@@ -118,7 +118,7 @@ body {
     margin-bottom: 120px;
 }
 .services {
-    padding: 165px 125px;
+    /* padding: 165px 125px; */
     text-align: center;
     background-color: #e4fdf9;
 }

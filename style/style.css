@@ -95,7 +95,7 @@ body {
     font-family: "Open Sans";
     font-weight: 600;
     padding-bottom: 25px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .about h3 {
@@ -114,7 +114,7 @@ body {
 }
 
 .about__text {
-    padding-bottom: 125px;
+    padding-bottom: 50px;
 }
 /* secvices */
 .services__top {
@@ -197,8 +197,11 @@ body {
     position: relative;
 }
 .nav-tabs {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     border: none;
+}
+.works__view-all {
+    margin-top: 50px;
 }
 .text__hover {
     opacity: 0;
@@ -285,7 +288,7 @@ body {
     transition: 0.3s;
 }
 .pricing__text {
-    margin-bottom: 125px;
+    margin-bottom: 50px;
 }
 /* team */
 .team {
@@ -367,9 +370,13 @@ body {
     background-color: #e4fdf9;
     text-align: center;
 }
+.blog__title {
+    padding-top: 60px;
+}
 .blog__text {
     text-align: left;
     padding-left: 20px;
+    padding-bottom: 60px;
     /* padding-top: 60px; */
 }
 .blog__text div {

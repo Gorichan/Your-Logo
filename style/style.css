@@ -16,9 +16,7 @@ body {
 .container {
     text-align: center;
 }
-/* .works__view-all {
-    margin-top: 0;
-} */
+
 /* menu */
 .menu-bar {
     align-items: center;
@@ -202,8 +200,8 @@ body {
     margin-bottom: 50px;
     border: none;
 }
-.works__view-all {
-    margin-top: 50px;
+.row.justify-content-center.nav-tabs.works__view-all {
+    margin-top: 30px;
 }
 .text__hover {
     opacity: 0;

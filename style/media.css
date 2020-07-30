@@ -32,5 +32,112 @@
         margin-left: 0;
         margin-right: 0;
     }
+    .heade__title {
+        font-size: 2.5em;
+    }
+    .header__text {
+        padding: 40px 0px;
+        
+    }
+    .button {
+        margin: 5px 10px; 
+    }
+    .header__sub {
+        padding: 80px 0;
+        padding-bottom: 20px;
+    }
+    .about__text {
+        padding-bottom: 30px;
+    }
+    .about img {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .about h3 {
+        padding-bottom: 5px;
+    }
+    .about__title, .services__title, .works__title, .pricing__title {
+        padding-bottom: 15px;
+        padding-top: 20px;
+    }
+    .our__card p {
+        padding: 15px 0px;
+    }
+    .works__title {
+        margin-top: 20px;
+    }
+    .our__card {
+        padding: 50px 0 40px;
+    }
+    .services__top {
+        margin-bottom: 30px;
+    }
+    .nav-tabs {
+        margin-bottom: 30px;
+    }
+    .works__hover {
+        margin-bottom: 20px;
+    }
+    .works__view-all {
+        margin-top: 20px;
+    }
+    .pricing__text {
+        margin-bottom: 40px;
+    }
+    .pricing__button {
+        padding: 10px 10px;
+    }
+    .pricing__cards-title {
+        padding-bottom: 20px;
+    }
+    .pricing__cards {
+        padding: 30px 10px 30px 10px;
+    }
+    .pricing__cards-top {
+        padding-bottom: 50px;
+    }
+    .pricing {
+        padding-bottom: 40px;
+    }
+    p {
+        margin-bottom: 1rem;
+    }
+    .icon__team {
+        padding: 0 5px 10px 5px;
+    }
+    .blog__text {
+        text-align: center;
+    }
+    .revers__blog {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img-rensposive {
+        margin-top: 15px;
+    }
+    .blog {
+        padding-bottom: 0px;  
+    }
+    h2 {
+        margin-bottom: 1rem; 
+    }
+    footer {
+         padding: 0; 
+    }
+    footer button {
+        margin-bottom: 10px;
+    }
+    .russ p {
+        margin-bottom: 0rem;
+    }
+    .responis {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
 }
+
 

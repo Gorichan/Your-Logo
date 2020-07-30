@@ -1,8 +1,8 @@
-@media screen and (max-width: 1900px){
+/* @media screen and (max-width: 1900px){
     .img-rensposive {
         margin-top: 5px;
     }
-}
+} */
 @media screen and (max-width: 1024px) {
     .menu-bar  nav {
         display: none;
@@ -156,6 +156,9 @@
     }
     .blog__text {
         padding-top: 20px;
+    }
+    .blog .col-md-6 {
+        padding: 0;
     }
 }
 

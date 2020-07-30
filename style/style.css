@@ -16,7 +16,9 @@ body {
 .container {
     text-align: center;
 }
-
+/* .works__view-all {
+    margin-top: 0;
+} */
 /* menu */
 .menu-bar {
     align-items: center;
@@ -225,6 +227,7 @@ body {
 }
 .works__view-all {
     margin-top: 100px;
+    margin-bottom: 0;
 }
 /* pricing */
 .pricing {
@@ -292,7 +295,7 @@ body {
 }
 /* team */
 .team {
-    padding: 50px 0;
+    padding: 80px 0;
     text-align: center;
 }
 
@@ -366,10 +369,10 @@ body {
 }
 
 .blog__text {
-    text-align: left;
+    text-align: center;
     padding-left: 20px;
     padding-bottom: 60px;
-    /* padding-top: 60px; */
+    padding-top: 60px;
 }
 .blog__text div {
     margin-top: 15px;

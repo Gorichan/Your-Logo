@@ -81,6 +81,7 @@
     }
     .works__view-all {
         margin-top: 20px;
+        margin-bottom: 0;
     }
     .pricing__text {
         margin-bottom: 40px;

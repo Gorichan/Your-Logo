@@ -10,7 +10,7 @@ li {
 body {
     font-family: "Open Sans";
     color: #212121;
-    background-color: #e4fdf9;
+    /* background-color: #e4fdf9; */
     /* font-family: 'Roboto', sans-serif; */
 }
 .container {
@@ -393,7 +393,7 @@ body {
  }
  /* footer */
  .contact {
-    padding: 50px 0;
+    padding: 50px 0 0 0;
     text-align: center;
  }
  .sercli {
@@ -404,7 +404,7 @@ body {
      border-radius: 50%;
      display: flex;
      justify-content: center;
-     
+     margin: 0 auto;
  }
  .contact i {
      color: #fff;

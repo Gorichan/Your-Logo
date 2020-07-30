@@ -405,7 +405,7 @@ body {
      border-radius: 50%;
      display: flex;
      justify-content: center;
-     margin: 0 auto;
+     margin: 10px auto;
  }
  .contact i {
      color: #fff;

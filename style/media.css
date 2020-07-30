@@ -117,9 +117,9 @@
     .img-rensposive {
         margin-top: 15px;
     }
-    .blog {
+    /* .blog {
         padding-bottom: 0px;  
-    }
+    } */
     h2 {
         margin-bottom: 1rem; 
     }
@@ -139,6 +139,22 @@
     .footer {
         display: flex;
         justify-content: center;
+    }
+    .blog__i {
+        display: flex;
+        flex-flow: column;
+    }
+    .blog__i i {
+        margin-bottom: 5px;
+    }
+    .button__i {
+        margin-bottom: 10px;
+    }
+    .blog__text {
+        text-align: left;
+    }
+    .blog__text {
+        padding-top: 20px;
     }
 }
 

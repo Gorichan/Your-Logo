@@ -10,7 +10,7 @@ li {
 body {
     font-family: "Open Sans";
     color: #212121;
-    /* background-color: #868686; */
+    background-color: #e4fdf9;
     /* font-family: 'Roboto', sans-serif; */
 }
 .container {
@@ -95,7 +95,6 @@ body {
     font-family: "Open Sans";
     font-weight: 600;
     padding-bottom: 25px;
-    margin-top: 60px;
 }
 
 .about h3 {
@@ -166,15 +165,13 @@ body {
     outline: none;
 }
 /* works */
-.work {
+.works {
     padding: 50px 0;
 }
 .works nav {
     width: 100%;
 }
-.works__title {
-    margin-top: 100px;
-}
+
 .nav-tabs .button {
     border-color: #00897b;
     color: black;
@@ -304,9 +301,7 @@ body {
     color: #00897b;
     font-size: 30px;
 }
-.icon__text {
-    margin: 20px 0;
-}
+
 .icon__team i {
     transition: .3s;
     text-align: center;
@@ -366,9 +361,10 @@ body {
     background-color: #e4fdf9;
     text-align: center;
 }
-.blog__title {
-    padding-top: 60px;
+.blog span {
+    margin-left: 5px;
 }
+
 .blog__text {
     text-align: left;
     padding-left: 20px;
@@ -397,8 +393,8 @@ body {
  }
  /* footer */
  .contact {
-    padding: 50px 0 0 0;
-     text-align: center;
+    padding: 50px 0;
+    text-align: center;
  }
  .sercli {
      align-items: center;
@@ -408,7 +404,7 @@ body {
      border-radius: 50%;
      display: flex;
      justify-content: center;
-     margin: 30px auto;
+     
  }
  .contact i {
      color: #fff;
@@ -421,7 +417,7 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #fff;
-    padding: 50px;
+    
 }
 /* form */
 .form-group {

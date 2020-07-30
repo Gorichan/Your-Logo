@@ -396,10 +396,8 @@ body {
      
  }
  /* footer */
- footer {
-    padding: 50px 0;
- }
  .contact {
+    padding: 50px 0 0 0;
      text-align: center;
  }
  .sercli {
@@ -455,6 +453,7 @@ footer button {
     color: #212121;
     opacity: .6;
     transform: .3s;
+    margin-bottom: 20px;
 }
 footer button:hover {
     opacity: .3;
@@ -470,7 +469,12 @@ footer button:hover {
     font-weight: 600;
     padding: 5px;
     text-align: center;
+    background-color: #fff;
+    color: #212121;
     
+}
+.russ p {
+    margin-bottom: 0;
 }
 
 #toTop {

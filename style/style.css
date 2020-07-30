@@ -78,9 +78,9 @@ body {
     outline: none;
 }
 /* about */
-/* .about {
-    margin: 125px 125px;
-} */
+.about {
+    padding: 50px 0;
+}
 .about img {
     padding-bottom: 40px;
 }
@@ -121,7 +121,7 @@ body {
     margin-bottom: 120px;
 }
 .services {
-    /* padding: 165px 125px; */
+    padding: 50px 0;
     text-align: center;
     background-color: #e4fdf9;
 }
@@ -166,6 +166,9 @@ body {
     outline: none;
 }
 /* works */
+.work {
+    padding: 50px 0;
+}
 .works nav {
     width: 100%;
 }
@@ -228,7 +231,7 @@ body {
 }
 /* pricing */
 .pricing {
-    padding-bottom: 125px;
+    padding: 50px 0;
     text-align: center;
 }
 .pricing__cards {
@@ -292,7 +295,7 @@ body {
 }
 /* team */
 .team {
-    padding-bottom: 50px;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -340,13 +343,6 @@ body {
 .carousel-indicators {
     bottom: -60px;
 }
-/* .carousel-control-next{
-    right: -0;
-
-}
-.carousel-control-prev {
-    left: 0;
-} */
 .carousel-control-next, .carousel-control-prev{
     width: 10%;
     height: auto;
@@ -366,7 +362,7 @@ body {
 /* blog */
 .blog {
     width: 100%;
-    padding-bottom: 100px;
+    padding: 50px 0;
     background-color: #e4fdf9;
     text-align: center;
 }
@@ -400,6 +396,9 @@ body {
      
  }
  /* footer */
+ footer {
+    padding: 50px 0;
+ }
  .contact {
      text-align: center;
  }

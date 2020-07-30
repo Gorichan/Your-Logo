@@ -59,6 +59,7 @@
     .about__title, .services__title, .works__title, .pricing__title {
         padding-bottom: 15px;
         padding-top: 20px;
+        line-height: 30px;
     }
     .our__card p {
         padding: 15px 0px;
@@ -107,6 +108,7 @@
     }
     .blog__text {
         text-align: center;
+        padding-left: 0;
     }
     .revers__blog {
         display: flex;

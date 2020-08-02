@@ -89,7 +89,6 @@ body {
 .pricing__title{
     font-size: 30px;
     line-height: 22px;
-    font-weight: bold;
     color: #212121;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
@@ -448,7 +447,7 @@ footer button {
     border: none;
     color: #212121;
     opacity: .6;
-    transform: .3s;
+    transition: .3s;
     margin-bottom: 20px;
 }
 footer button:hover {
